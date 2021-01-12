@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Layout2"
+    tools:context=".Activitate_adaugare_licitatie">
+
+        <TextView
+            android:id="@+id/tv1"
+            style="@style/TextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/titlu_formular" />
+
+        <TextView
+            android:id="@+id/tvnume"
+            style="@style/TextViewFormularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv1"
+            android:text="@string/nume" />
+
+        <EditText
+            android:id="@+id/etnume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvnume"
+            />
+
+        <TextView
+            android:id="@+id/tvprenume"
+            style="@style/TextViewFormularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/etnume"
+            android:text="@string/prenume" />
+
+        <EditText
+            android:id="@+id/etprenume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvprenume"
+            android:inputType="textPersonName"
+            />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            style="@style/TextViewFormularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/etprenume"
+            android:text="@string/email" />
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvEmail"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/tvArticol"
+            style="@style/TextViewFormularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/etemail"
+            android:text="@string/articol" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvArticol"
+            />
+
+        <TextView
+            android:id="@+id/tvsuma"
+            style="@style/TextViewFormularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/spinner"
+            android:text="@string/suma" />
+
+        <EditText
+            android:id="@+id/etsuma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvsuma"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/TextViewFormularStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/etsuma"
+            android:text="@string/data" />
+
+        <EditText
+            android:id="@+id/etdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView9"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyButtonStyle"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/etdata"
+            android:text="@string/btnformular" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

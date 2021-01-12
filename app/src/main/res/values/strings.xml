@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Licitatii Bucuresti</string>
+    <string name="titlu_formular">Formular licitatie:</string>
+    <string name="formular_review">Formular review:</string>
+    <string name="nume">Nume:</string>
+    <string name="prenume">Prenume:</string>
+    <string name="email">Email:</string>
+    <string name="review">Review:</string>
+    <string name="phone">Telefon:</string>
+    <string name="articol">Articol:</string>
+    <string name="suma">Suma licitata(euro):</string>
+    <string name="data">Data:</string>
+    <string name="btnformular">Trimitere</string>
+
+    <string name="mesaj1">Va multumim ca sunteti alaturi de noi!</string>
+    <string name="mesaj2">Va dorim o zi frumoasa!</string>
+    <string name="mesaj3">Va dorim o zi frumoasa!</string>
+
+    <string name="optiune1">Adauga review</string>
+    <string name="optiune2">Setari</string>
+    <string name="optiune4">Lista review-uri</string>
+    <string name="optiune3">Licitatii</string>
+
+    <string name="eroare_data">Introduceti data!</string>
+    <string name="eroare_nume">Introduceti numele!</string>
+    <string name="eroare_prenume">Introduceti prenumele!</string>
+    <string name="eroare_telefon">Introduceti telefonul!</string>
+    <string name="eroare_email">Introduceti emailul!</string>
+    <string name="eroare_articol">Introduceti articolul!</string>
+    <string name="eroare_suma">Introduceti suma!</string>
+    <string name="tvIstoricComenzi">Istoric comenzi</string>
+
+    <string-array name="optiuni_spinner_formular">
+        <item>GEANTA</item>
+        <item>BLUZA</item>
+        <item>PALARIE</item>
+        <item>BALERINI</item>
+    </string-array>
+
+
+    <string name="tvBunVenit">Bine ati venit!</string>
+    <string name="btnLicitatie">Liciteaza pentru un articol </string>
+    <string name="btnArticole">Articole puse la licitatie</string>
+    <string name="btnReview">Scrie un review</string>
+    <string name="btnLista">Lista de reviewuri</string>
+    <string name="btnSetari">Setari</string>
+    <string name="btnLicitatii">Licitatiile mele</string>
+    <string name="tvGeanta">Geanta</string>
+    <string name="tvBalerini">Balerini</string>
+    <string name="tvBluza">Bluza</string>
+    <string name="tvPalarie">Palarie</string>
+
+
+</resources>

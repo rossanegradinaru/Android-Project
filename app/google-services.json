@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "892908729536",
+    "firebase_url": "https://proiectlicitatie-default-rtdb.firebaseio.com",
+    "project_id": "proiectlicitatie",
+    "storage_bucket": "proiectlicitatie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892908729536:android:e9ddbf5bbb62d2e2816925",
+        "android_client_info": {
+          "package_name": "ro.ase.echipa_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892908729536-nt7o97she9qr04kuu27e1dpovt1g05i3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvXn1Wy9ez9J7ysfAYRZZz8f02YbbAhIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892908729536-nt7o97she9qr04kuu27e1dpovt1g05i3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

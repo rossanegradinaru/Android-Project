@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout3"
+    tools:context=".Activitate_adaugare_review">
+    <TextView
+        android:id="@+id/tvtitlur"
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/formular_review" />
+
+    <TextView
+        android:id="@+id/tvnumer"
+        style="@style/TextViewFormularStyle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/nume"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtitlur" />
+
+    <EditText
+        android:id="@+id/etnumer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvnumer" />
+
+    <TextView
+        android:id="@+id/tvreview"
+        style="@style/TextViewFormularStyle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/review"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etnumer" />
+
+    <EditText
+        android:id="@+id/etreview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="36dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvreview"
+         />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/MyButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnformular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etreview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
